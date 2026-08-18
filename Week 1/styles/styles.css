@@ -1,0 +1,10 @@
+body {
+    background-color: blueviolet;
+}
+
+p {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    padding: 30px;
+}
