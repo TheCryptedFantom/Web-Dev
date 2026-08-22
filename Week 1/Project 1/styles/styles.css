@@ -3,3 +3,8 @@ p {
     font-family: 'Times New Roman', Times, serif;
     word-spacing: 3px;
 }
+
+img {
+    height: 400px;
+    width: 300px;
+}
