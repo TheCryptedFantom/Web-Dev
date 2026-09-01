@@ -1,3 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+}
+
 p {
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
@@ -7,4 +57,96 @@ p {
 img {
     height: 400px;
     width: 300px;
+}
+
+li {
+    font-size: 17px;
+    margin: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #e0e0e0;
+    padding: 15px;
+    text-align: center;
+}
+
+.favorites-container {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.favorites-container section {
+    flex: 1;
+    min-height: 200px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.favorites-container section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.favorites-container h2 {
+    margin-top: 5px;
+}
+
+.favorites-container h2 a {
+    font-size: 26px;
+}
+
+.favorites-container p {
+    line-height: 1.6;
+}
+
+main > section {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+}
+
+main > section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+main > section li {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.favorites-container a,
+main > section a {
+    font-weight: bold;
+}
+
+.favorites-container a:hover,
+main > section a:hover {
+    text-decoration: underline;
 }
