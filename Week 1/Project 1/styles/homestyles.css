@@ -1,0 +1,41 @@
+.welcome {
+    text-align: center;
+    border: 2px solid #7189A3;
+}
+
+.welcome img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 3px solid #40566D;
+}
+
+.welcome p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+.interests {
+    text-align: center;
+    border: 2px solid #7189A3;
+}
+
+.interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+.interests li {
+    display: inline-block;
+    background-color: #D9E2EC;
+    color: #26374A;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 5px;
+}
+
+.contact {
+    text-align: center;
+    border: 2px solid #7189A3;
+}
