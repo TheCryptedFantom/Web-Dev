@@ -28,7 +28,7 @@ nav a:hover {
     background-color: #40566D;
 }
 
-#active {
+.active {
     background-color: #40566D;
 }
 
@@ -62,6 +62,10 @@ p {
 img {
     height: 400px;
     width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 3px solid #40566D;
 }
 
 li {
@@ -96,4 +100,73 @@ footer {
     padding: 15px;
     text-align: center;
     color: #F4F6F8;
+}
+
+.card {
+    border: 2px solid #7189A3;
+    border-radius: 15px;
+}
+
+.stalecard {
+    border: 2px solid #7189A3;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.stalecard p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+#favorites {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.card section {
+    flex: 1;
+    min-height: 200px;
+    border: 2px solid #7189A3;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(38, 55, 74, 0.2);
+    border-color: #40566D;
+}
+
+#contact {
+    text-align: center;
+    border: 2px solid #7189A3;
+}
+
+#contact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(38, 55, 74, 0.2);
+    border-color: #40566D;
+}
+
+.interests {
+    text-align: center;
+    border: 2px solid #7189A3;
+}
+
+.interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+.interests li {
+    display: inline-block;
+    background-color: #D9E2EC;
+    color: #26374A;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 5px;
 }

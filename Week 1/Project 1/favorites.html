@@ -4,8 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Favorites Page</title>
-        <link rel="stylesheet" href="styles/favoritesstyles.css">
-        <link rel="stylesheet" href="styles/jointstyles.css">
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
 
     <body>
@@ -16,14 +15,15 @@
             <nav>
                 <a href="home.html">Home</a>
                 <a href="about.html">About</a>
-                <a id="active" href="favorites.html">Favorites</a>
+                <a class="active" href="favorites.html">Favorites</a>
             </nav>
         </header>
 
         <main>
-            <div class="favorites-container">
+            <div id="favorites">
 
-                <section>
+                <!--YouTube section-->
+                <section class="card">
                     <h2>
                         <a href="https://www.youtube.com/">YouTube</a>
                     </h2>
@@ -35,7 +35,8 @@
                     </p>
                 </section>
 
-                <section>
+                <!--Reddit section-->
+                <section class="card">
                     <h2>
                         <a href="https://www.reddit.com/">Reddit</a>
                     </h2>
@@ -48,7 +49,8 @@
                     </p>
                 </section>
 
-                <section>
+                <!--ROMs section-->
+                <section class="card">
                     <h2>
                         <a href="https://r-roms.github.io/">R-Roms</a>
                     </h2>
@@ -61,7 +63,9 @@
                 </section>
 
             </div>
-            <section>
+
+            <!--Some Extra Favorites-->
+            <section class="card">
                 <h2>Other Favorites</h2>
 
                 <ul>
@@ -71,6 +75,20 @@
                     <li>Favorite Food: Ribs with a side of Mashed Potatoes and Baked Beans</li>
                 </ul>
             </section>
+
+            <!--Contact section-->
+            <section id="contact">
+                <h2>Get In Touch</h2>
+
+                <p>
+                    Email: Roachmaster2000@gmail.com
+                </p>
+
+                <p>
+                    Phone Number: (208) 366-4409
+                </p>
+            </section>
+            
 
         </main>
 

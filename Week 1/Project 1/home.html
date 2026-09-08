@@ -1,12 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home Page</title>
-        <link rel="stylesheet" href="styles/homestyles.css">
-        <link rel="stylesheet" href="styles/jointstyles.css">
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
 
     <body>
@@ -16,18 +14,18 @@
             <p>Student, Tech Enthusiast, Gamer, and Growing Cybersecurity Expert</p>
 
             <nav>
-                <a id="active" href="home.html">Home</a>
+                <a class="active" href="home.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="favorites.html">Favorites</a>
             </nav>
         </header>
 
         <main>
-
-            <section class="welcome">
+            <!--Intro section-->
+            <section class="stalecard">
                 <h2>Welcome to My Website!</h2>
 
-                <img src="Cornhole Tournament 2025.jpg"
+                <img class="card" src="Cornhole Tournament 2025.jpg"
                      alt="Cornhole Champions of Graham Family Tournament 2025">
 
                 <div>
@@ -51,16 +49,16 @@
                 <h2>My Interests</h2>
 
                 <ul>
-                    <li>💻 Computers and Technology</li>
-                    <li>🎮 Video Games</li>
-                    <li>🔐 Cybersecurity</li>
-                    <li>🔧 Fixing Electronics</li>
-                    <li>💡 Coding and Web Development</li>
+                    <li class="card">💻 Computers and Technology</li>
+                    <li class="card">🎮 Video Games</li>
+                    <li class="card">🔐 Cybersecurity</li>
+                    <li class="card">🔧 Fixing Electronics</li>
+                    <li class="card">💡 Coding and Web Development</li>
                 </ul>
             </section>
 
-
-            <section class="contact">
+            <!--Contact section-->
+            <section id="contact">
                 <h2>Get In Touch</h2>
 
                 <p>
@@ -80,4 +78,3 @@
 
     </body>
 </html>
-```
