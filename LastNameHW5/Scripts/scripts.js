@@ -1,4 +1,5 @@
 var firstName = "Trenton";
+var lastName = "Roach";
 var favoriteGame = "Minecraft";
 var otherFavoriteGame = "Ark: Survival Evolved";
 var age = 17;
@@ -8,7 +9,7 @@ var totalGamesOwned = gamesOwnedOnSteam + gamesOwnedOnPlaystation;
 var isGamer = true;
 
 // String concatenations
-console.log("My name is " + firstName);
+console.log("My name is " + firstName + " " + lastName + " and I am " + age + " years old.");
 console.log("My favorite games are " + favoriteGame + " and " + otherFavoriteGame);
 
 // Math operations
