@@ -1,12 +1,12 @@
-var firstName = "Trenton";
-var lastName = "Roach";
-var favoriteGame = "Minecraft";
-var otherFavoriteGame = "Ark: Survival Evolved";
-var age = 17;
-var gamesOwnedOnSteam = 61;
-var gamesOwnedOnPlaystation = 51;
-var totalGamesOwned = gamesOwnedOnSteam + gamesOwnedOnPlaystation;
-var isGamer = true;
+let firstName = "Trenton";
+let lastName = "Roach";
+let favoriteGame = "Minecraft";
+let otherFavoriteGame = "Ark: Survival Evolved";
+let age = 17;
+let gamesOwnedOnSteam = 61;
+let gamesOwnedOnPlaystation = 51;
+let totalGamesOwned = gamesOwnedOnSteam + gamesOwnedOnPlaystation;
+let isGamer = true;
 
 // String concatenations
 console.log("My name is " + firstName + " " + lastName + " and I am " + age + " years old.");
@@ -22,7 +22,7 @@ console.log("Am I a gamer? " + isGamer);
 
 // Finds the HTML element with the id "content" and appends a paragraph to its existing content.
 document.getElementById("content").innerHTML += "<p>I currently own " + gamesOwnedOnSteam + " games on Steam and " + gamesOwnedOnPlaystation + " games on PlayStation. I enjoy"
-                + " playing a variety of games, from action-packed shooters to relaxing"
+                + " playing a letiety of games, from action-packed shooters to relaxing"
                 + " simulation games. Each game offers a unique experience and allows me"
                 + " to explore different worlds and stories.</p>";
 
