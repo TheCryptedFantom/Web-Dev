@@ -64,3 +64,42 @@ if (playsOnline !== "yes") {
 } else {
   console.log("Since you play online, competitive and co-op games are probably right up your alley.");
 }
+
+
+
+// =============================================
+// Task 1: Counting Loop
+// A for loop starts a counter (i) at 1, keeps looping while
+// i <= 10, and adds 1 to i after each pass (i++).
+// That runs the loop body exactly 10 times, printing 1 through 10.
+// =============================================
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+// =============================================
+// Task 2: User Input Loop
+// prompt() always returns a string, so Number() converts the
+// typed value into an actual number we can compare with <=.
+// The for loop then counts from 1 up to whatever the user entered.
+// =============================================
+let userNumber = Number(prompt("Enter a number to count up to:"));
+
+for (let i = 1; i <= userNumber; i++) {
+  console.log("Count: " + i);
+}
+
+// =============================================
+// Task 3: Triangle Pattern
+// "line" starts empty and gains one extra "#" each time through the
+// loop (line += "#"). Printing "line" inside the loop - rather than
+// after it - is what shows a growing row on every iteration instead
+// of just the finished triangle at the end.
+// =============================================
+let triangleHeight = 10; // change this number to make the triangle taller or shorter
+let line = "";
+
+for (let i = 1; i <= triangleHeight; i++) {
+  line += "#";
+  console.log(line);
+}
