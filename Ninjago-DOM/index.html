@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninjago — DOM Homework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="ninjagoTitle">The Ninjago Ninja Team</h1>
+        <p>Master your element. Protect Ninjago.</p>
+    </header>
+
+    <main id="ninjaMain">
+        <p class="ninja-intro" id="ninjaIntro">
+            Welcome to the world of Ninjago!
+        </p>
+
+        <!-- JavaScript will render the ninja roster here -->
+        <h2>The Ninja Roster</h2>
+        <ul id="ninjaRoster"></ul>
+
+        <!-- JavaScript will change this image -->
+        <img
+            id="ninjaImage"
+            src="https://placehold.co/600x300/151515/ffffff?text=NINJAGO"
+            alt="Ninjago title image"
+        >
+
+        <p id="ninjaChallenge">
+            Every ninja has a unique power. Discover yours!
+        </p>
+
+        <p id="elementalChallenge">
+            Your elemental destiny awaits.
+        </p>
+
+        <!-- Buttons for DOM interactions -->
+        <button id="highlightButton">Activate Spinjitzu</button>
+        <button id="swapImageButton">Change Ninja Display</button>
+    </main>
+
+    <footer id="ninjaFooter">
+        Ninjago DOM Project
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
