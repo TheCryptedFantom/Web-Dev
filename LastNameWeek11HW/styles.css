@@ -1,0 +1,43 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #e8eaf6;
+  color: #25264a;
+  padding: 1rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* The dark theme we will toggle later */
+.dark {
+  background: #171725;
+  color: #e6e6ff;
+}
+
+/* Section styling */
+section {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(120, 100, 200, 0.1);
+}
+
+/* Button styling */
+button {
+  background: #6254a5;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #483b85;
+}
+
+/* List styling */
+li {
+  margin: 10px 0;
+  cursor: pointer;
+}
