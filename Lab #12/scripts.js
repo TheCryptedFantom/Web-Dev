@@ -24,17 +24,23 @@ form.addEventListener("submit", function(event) {
 });
 
 // Listen for console button click
-const consoleButton = document.getElementById("consoleButton");
+const answersButton = document.getElementById("answersButton");
 
-consoleButton.addEventListener("click", function() {
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-    const color = document.getElementById("color").value;
+answersButton.addEventListener("click", function() {
+    console.log("PART 4 — ANSWERS");
 
-    console.log("Questions and Answers:");
-    console.log("What is your name? " + name);
-    console.log("What is your email? " + email);
-    console.log("What is your message? " + message);
-    console.log("What is your favorite color? " + color);
+    console.log("1. What do IDs do?");
+    console.log("IDs give HTML elements unique names so JavaScript and CSS can find and identify specific elements.");
+
+    console.log("2. Why must your <script> tag be at the end of <body>?");
+    console.log("Placing the script at the end allows the HTML elements to load before JavaScript tries to access them.");
+
+    console.log("3. What does event.preventDefault() actually prevent?");
+    console.log("It prevents the browser's default action when an event occurs. In this assignment, it prevents the form from refreshing the page when submitted.");
+
+    console.log("4. What does .value return?");
+    console.log("It returns the current value entered into an input or textarea.");
+
+    console.log("5. Why use template literals (${}) instead of string concatenation?");
+    console.log("Template literals make it easier to combine text and variables. They also make longer strings containing HTML easier to read.");
 });
