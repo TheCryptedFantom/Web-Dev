@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+    <form id="contactForm">
+
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Your name" required />
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="you@example.com" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+
+        <!-- Part 3: Additional input -->
+        <label for="color">Favorite Color:</label>
+        <input id="color" type="text" placeholder="Your favorite color" />
+
+        <button type="submit">Submit</button>
+
+        <button type="button" id="consoleButton">Display Answers in Console</button>
+
+    </form>
+
+    <section id="result"></section>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
