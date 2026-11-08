@@ -1,0 +1,144 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #10141c;
+    color: #e8edf5;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    background: #1b2330;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #303d50;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #54b8ff;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #aab6c7;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label, legend {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #dce8f5;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    background: #101722;
+    border: 1px solid #43536a;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #54b8ff;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.option input {
+    width: auto;
+}
+
+.option label {
+    margin: 0;
+    font-weight: normal;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #1687d9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+/* Button hover animation */
+button:hover {
+    background: #086bb5;
+    transform: translateY(-2px);
+}
+
+#results {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: #101722;
+    border: 1px solid #54b8ff;
+    border-radius: 8px;
+}
+
+#results h2 {
+    color: #54b8ff;
+    margin-bottom: 15px;
+}
+
+.result-item {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.result-item strong {
+    color: #54b8ff;
+}
+
+footer {
+    text-align: center;
+    color: #8291a5;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 20px;
+    }
+}

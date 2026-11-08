@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roach Tech Repair | Service Request</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Roach Tech Repair</h1>
+        <p>PC Hardware Service Request</p>
+    </header>
+
+    <form id="serviceForm">
+
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="example@email.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Computer Age (Years)</label>
+            <input type="number" id="age" name="age"
+                   min="0" max="100" placeholder="Example: 3" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date">Preferred Service Date</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="issue">What is the main issue?</label>
+            <select id="issue" name="issue" required>
+                <option value="">Select an issue</option>
+                <option value="Slow Performance">Slow Performance</option>
+                <option value="Overheating">Overheating</option>
+                <option value="Hardware Failure">Hardware Failure</option>
+                <option value="Blue Screen / Crashing">Blue Screen / Crashing</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <fieldset>
+            <legend>Which services are you interested in?</legend>
+
+            <div class="option">
+                <input type="checkbox" id="diagnostics"
+                       name="services" value="Hardware Diagnostics">
+                <label for="diagnostics">Hardware Diagnostics</label>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="cleaning"
+                       name="services" value="PC Cleaning">
+                <label for="cleaning">PC Cleaning</label>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="upgrade"
+                       name="services" value="Hardware Upgrade">
+                <label for="upgrade">Hardware Upgrade</label>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="software"
+                       name="services" value="Software Troubleshooting">
+                <label for="software">Software Troubleshooting</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>How urgent is your request?</legend>
+
+            <div class="option">
+                <input type="radio" id="normal" name="priority"
+                       value="Normal" checked>
+                <label for="normal">Normal</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" id="urgent" name="priority"
+                       value="Urgent">
+                <label for="urgent">Urgent</label>
+            </div>
+        </fieldset>
+
+        <div class="form-group">
+            <label for="details">Describe the problem</label>
+            <textarea id="details" name="details"
+                      placeholder="Describe your computer issue..."
+                      required></textarea>
+        </div>
+
+        <button type="submit">Submit Service Request</button>
+
+    </form>
+
+    <section id="results" aria-live="polite">
+        <h2>Service Request Summary</h2>
+        <div id="resultContent"></div>
+    </section>
+
+    <footer>
+        &copy; 2026 Roach Tech Repair | Service Request Form
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
